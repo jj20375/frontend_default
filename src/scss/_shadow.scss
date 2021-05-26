@@ -1,0 +1,18 @@
+.shadow-blue-500-sm {
+    box-shadow: 1px 1px 3px theme("colors.blue.500");
+}
+.shadow-blue-500-md {
+    box-shadow: 2px 2px 6px theme("colors.blue.500");
+}
+.shadow-blue-500-lg {
+    box-shadow: 5px 5px 10px theme("colors.blue.500");
+}
+.shadow-black-sm {
+    box-shadow: 1px 1px 3px #000;
+}
+.shadow-black-md {
+    box-shadow: 2px 2px 6px #000;
+}
+.shadow-black-lg {
+    box-shadow: 5px 5px 10px #000;
+}

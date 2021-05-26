@@ -1,0 +1,19 @@
+.text-shadow-sm {
+    text-shadow: 1px 1px 3px #000;
+}
+.text-shadow-md {
+    text-shadow: 2px 2px 6px #000;
+}
+.text-shadow-lg {
+    text-shadow: 5px 5px 10px #000;
+}
+
+.text-shadow-red-300-sm {
+    text-shadow: 1px 1px 3px theme("colors.red.300");
+}
+.text-shadow-red-300-md {
+    text-shadow: 2px 2px 6px theme("colors.red.300");
+}
+.text-shadow-red-300-lg {
+    text-shadow: 5px 5px 10px theme("colors.red.300");
+}

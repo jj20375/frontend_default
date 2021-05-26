@@ -1,0 +1,55 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+@import "./btn";
+@import "./text-shadow";
+@import "./shadow";
+@import "./nucleo/css/nucleo.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300&family=Pattaya&display=swap");
+
+body {
+    background-color: theme("colors.gray.200");
+    font-family: "Noto Sans TC", sans-serif;
+}
+.mobileShow {
+    @apply sm:sr-only md:sr-only not-sr-only;
+}
+.desktopShow {
+    @apply sm:not-sr-only md:not-sr-only sr-only;
+}
+
+.NotoSansTCFont {
+    font-family: "Noto Sans TC", sans-serif;
+}
+.OpenSansFont {
+    font-family: "Open Sans", sans-serif;
+}
+.PattayaFont {
+    font-family: "Pattaya", sans-serif;
+}
+
+.theadBg {
+    background-color: theme("colors.blue.800") #{!important};
+}
+.tableBg {
+    tr:nth-child(odd) {
+        background-color: theme("colors.gray.100") #{!important};
+    }
+}
+.myTable {
+    @apply w-full;
+    tr:nth-child(odd) {
+        background-color: theme("colors.gray.100") #{!important};
+    }
+    th {
+        @apply p-3 text-center text-white bg-blue-700;
+    }
+    td {
+        @apply p-5 border border-gray-300;
+        min-width: 200px;
+    }
+}
